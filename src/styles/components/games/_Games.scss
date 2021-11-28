@@ -1,0 +1,10 @@
+$white: rgb(180, 180, 180);
+$bg: rgb(27, 27, 27);
+
+.games-presentation {
+  padding: 80px;
+  background-color: $bg;
+  .general-pres {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,12 @@
+$url: url("../../../../img/ludo.jpg") center/cover;
+
+.ludo-pres {
+  h1 {
+    margin-bottom: 10px;
+  }
+  .bg {
+    height: 50vh;
+    width: 50vh;
+    background: $url;
+  }
+}

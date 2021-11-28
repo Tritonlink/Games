@@ -1,0 +1,25 @@
+$black: rgb(29, 29, 29);
+$white: rgb(221, 221, 221);
+$bg: rgb(95, 95, 95);
+
+.home {
+  padding: 80px;
+  h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  .pres {
+    color: $white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: $bg;
+  }
+  .pres-auth {
+    color: $white;
+    background-color: $bg;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 7px;
+  }
+}

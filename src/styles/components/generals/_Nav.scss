@@ -1,0 +1,17 @@
+.nav-bar {
+  margin-bottom: 30px;
+  .nav {
+    margin: 30px;
+    background-color: rgb(54, 54, 54);
+    padding: 1%;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .actived-nav {
+    background: rgb(22, 22, 22);
+    margin: 30px;
+    padding: 1%;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+}

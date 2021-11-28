@@ -1,0 +1,18 @@
+@import "./components/games/Games";
+@import "./components/Home/Home";
+@import "./components/Ludo/Ludo";
+@import "./components/generals/Nav";
+@import "./components/games/pres/LudoPress";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(214, 211, 211);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background: $black;
+  border-radius: 2px;
+  height: 100vh;
+}
