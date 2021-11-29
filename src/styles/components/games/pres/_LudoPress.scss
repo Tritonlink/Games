@@ -1,12 +1,23 @@
 $url: url("../../../../img/ludo.jpg") center/cover;
+$white: rgb(211, 206, 206);
 
 .ludo-pres {
+  margin: 10px;
   h1 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .bg {
     height: 50vh;
     width: 50vh;
     background: $url;
+  }
+  .play {
+    background: $white;
+    width: 140px;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
   }
 }
